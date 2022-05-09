@@ -1,0 +1,122 @@
+@media only screen and (max-width: 767px) {
+    #title {
+        padding: 2% 2% 0% 4%;
+        background: url(./bg/Healthy.png) no-repeat center center/cover;
+    }
+
+    #searchbox {
+        width: 56%;
+    }
+
+    #row1 div:nth-child(1) {
+        margin: 0% 0%;
+
+    }
+
+    #row1 p {
+        font-size: .8rem;
+
+        width: 34%;
+
+    }
+
+    #row1 button {
+        margin-top: 0%;
+    }
+
+    #king-logo {
+        width: 30%;
+        margin-bottom: 5%;
+
+        margin-right: 10%;
+
+    }
+
+    .nav-item {
+        text-align: left;
+    }
+
+    .navbar-nav {
+        margin-left: 0%;
+
+    }
+
+    #row2 img {
+        width: 20%;
+    }
+
+    #row2 div h3 {
+        margin: 4% 0%;
+    }
+
+    #order h3 {
+
+        font-size: 1.3rem;
+    }
+
+
+    .card-body {
+
+        text-align: center;
+    }
+
+    .card-body img {
+
+        margin-bottom: 4%;
+    }
+
+    #login-panel h3 {
+
+        margin: 5% 0%;
+    }
+    #searchbox {
+        width: 49%;}
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    #signup .card {
+
+        margin: 0px;
+        width: 55%;
+    }
+    #testimonials h3 {
+        padding: 0px 21%;
+        font-size: 1rem;
+    }
+    #testimonials img {
+        border-radius: 100%;
+        height: 76px;
+        margin: 2% 2%;
+    }
+    .nav-item {
+        padding: 0px 0px;
+        margin: 0px 0px;
+       
+    }
+    .nav-link{
+        font-size: .9rem;
+    }
+    #king-logo {
+        width: 16%;
+      
+    }
+
+
+   
+
+
+}
+
+@media only screen and (max-width: 1078px) and (min-width:767px) {
+
+    #searchbox {
+        width: 38%;}
+
+}

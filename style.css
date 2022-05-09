@@ -1,0 +1,345 @@
+/* body */
+body{
+    text-align: center;
+}
+h1 ,h2 , h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    color: orangered;
+}
+section{
+    padding: 3% 8%;
+}
+/* section 1 = title */
+
+#title{
+    padding: 1% 7%;
+    padding-bottom: 0;
+   
+}
+
+#sign-log-btn{
+    display: flex;
+      margin: 1% 0% 4% 12.2%;
+   
+   
+}
+#sign-log-btn button{
+    padding: 0% 2%;
+    margin: 0% 1%;
+}
+/* navbar */
+
+#title{
+    background: url(./bg/Healthy.png) no-repeat center center/cover; 
+   
+}
+
+
+
+#king-logo{
+    width: 16%;
+
+    margin-bottom: 1.2%;
+}
+
+.navbar-nav{
+    margin-left:5%;
+    font-weight: 700;
+    
+
+}
+.nav-item{
+   
+    padding: 0px 3px;
+    margin: 0px 3px;
+
+    cursor: pointer;
+}
+.nav-link{
+    font-size: 1.15rem;
+
+   
+}
+
+.nav-btn{
+    
+    margin: 0% 0.4%;
+    padding: 0% 1.5% .3% 1.5%;
+    right: 14%;
+    position: relative;
+
+
+}
+
+#searchbox{
+    width: 27%;
+    border: 2px solid dimgray;
+    font-size: .91rem;
+    border-radius: 4px;
+    padding: 0% 1%;
+    margin-right: 71.5%;
+}
+nav ul:nth-child(2){
+    margin-left: 10%;
+    font-weight: 800;
+
+}
+/* title */
+
+#row1 div:nth-child(1){
+
+ 
+    margin: 3% 0% ;
+    padding: 5% 0% ;
+    text-align: left;
+}
+
+#row1 h1{
+    margin-bottom: 5%;
+    width: 61%;
+    color: #007e45;
+
+}
+#row1 p{
+    margin-bottom: 8%;
+    width: 51%;
+    color: #08336f;
+}
+#row1 button{
+   margin: 0 .3%;
+   width: 17%;
+}
+
+
+
+/* services */
+
+
+#services{
+background-color: aliceblue;
+
+}
+#row2 div{
+  
+    margin: 2% 0%;
+    text-align: left;
+    padding: 2% 4%;
+}
+
+#row2 div h3{
+    font-size: 1.3rem;
+    color: green;
+    margin: 12% 0%;
+}
+
+#row2 img{
+    width: 37%;
+    margin: 0% 0% 0% 0%;
+}
+
+
+/* testimonials */
+
+#testimonials{
+    
+ 
+    color: white;
+    background-color: #292525;
+    padding: 3% 0% 0% 7%;
+
+  
+}
+
+#testimonials h3{
+    padding: 0px 18%;
+    
+    font-size: 1.6rem;
+}
+#testimonials img{
+    border-radius: 100%;
+    height: 100px;
+    margin: 3% 2%;
+}
+
+
+/* order */
+
+#order{
+    background-color: rgb(35, 32, 32);
+    color: white;
+}
+
+#order h3{
+    padding: 0 18%;
+    line-height: 1.3;
+    margin: 2% 0% 3% 0%;
+}
+
+#order button{
+  
+    margin: 0 .5%;
+    font-size: 1.1rem;
+    padding: .4% 3%;
+
+}
+
+
+/* pricing section */
+
+
+#price{
+    background-color: aliceblue;
+}
+#price h2{
+    margin-bottom: 4%;
+}
+
+.card{
+    width: 98%;
+}
+
+
+.card-body{
+    padding: 0%;
+    text-align: left;
+}
+.items{
+    margin: 1% 0%;
+}
+.specs{
+    padding: 0 0 2.7% 3.5%;
+}
+.card-body img{
+    /* border-radius: 100%; */
+    width: 100%;
+    margin-bottom: 4%;
+}
+.card-body h3{
+    font-size: 1rem;
+}
+.card-body p{
+    font-family: 'ubuntu';
+    font-size: 0.81rem;
+    margin: 5% 0%;
+
+}
+.card-body button{
+    font-size: 1rem;
+    padding: 0% 6% 1% 6%;
+    margin-left: 42%;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+.card-body span{
+    font-size: .9rem ;
+    float: left;   
+    margin: 2% 0% 1% 0%;
+    font-family: 'Montserrat';
+}
+
+
+
+/* SIGNUP LOGIN PANEL */
+
+#signup{
+   
+    padding: 7% 9%;
+    background-color: #edf1f7;
+}
+
+
+#signpanel {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2%;
+    text-align: left;
+ 
+    border-radius: 2%;
+
+}
+#signpanel input{
+    width: 57%;
+    margin: .8% 0%;
+    padding: 0.4%;
+    cursor: pointer;
+}
+#gender input{
+    width: 5%;
+    
+}
+#signup input[type='submit']{
+    width: 20%;
+    text-align: center;
+    margin: 4% 1% 0% 0%;
+
+
+
+}
+
+#signup input[type='reset']{
+    width: 20%;
+    text-align: center;
+
+
+}
+#gender{
+    margin: 1% 0% 0% 0%;
+
+}
+#vegan{
+    margin: 1% 0% 0% 0%;
+}
+#login-panel{
+
+    border-radius: 2%;
+
+}
+#signup .card{
+    width: 76%;
+}
+#login-panel h3{
+    text-align: left;
+    margin-bottom: 3%;
+}
+#login-panel .card-body {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 4% 0% 4%;
+    padding: 0% 2%;
+}
+#login-panel .card-header{
+    background-color: #b4dcc6;
+}
+#login-panel .card-body input{
+    padding: 2% 5%;
+    margin: 4% 0%;
+    cursor: pointer;
+}
+#login-panel .card button{
+    margin: 1% 0%;
+    border-color: #0d6efd;
+    padding: 2% 0%;
+    font-size: 1.15rem;
+
+}
+#login-panel .card a{
+    margin: 3% 0%;
+}
+
+/* footer */
+#contact{
+    padding: 1% 7%;
+   
+    background-color: #f3fcff;
+    color: black;
+
+
+}
+#contact i{
+    margin: 3% 1.5% 2% 0%;
+}
+#contact p{
+    margin-right: 1%;
+}
